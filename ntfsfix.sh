@@ -12,14 +12,14 @@ protoninstall()
 
 usage()
 {
-    echo "Usage: ./$0 MEDIANAME STEAMID"
+    echo "Usage: $0 MEDIANAME STEAMID"
     echo "MEDIANAME: The name you see in your file browser, or here:"
     ls -1 /run/media/$(whoami)
     echo "---"
     echo "STEAMID: Id of the steam Game, here a list of installed games:"
     printsteamids
     echo "---"
-    echo "Example: ./$0 NVMe 1962700"
+    echo "Example: $0 NVMe 1962700"
     echo "Configures Subnautica 2 which is on NVMe"
 }
 
