@@ -3,4 +3,9 @@ https://github.com/ValveSoftware/Proton/wiki/Using-a-NTFS-disk-with-Linux-and-Wi
 
 Thank you so much to bakudan-otaku for improving this script from my jankie personal use one to a more safe and easy to use script.
 
-Follow the wiki to learn how to use it. 
+Usage:
+
+./ntfs-fix.sh MEDIANAME STEAMID
+
+Example: ./ntfs-fix.sh NVMe 1962700
+Configures Subnautica 2 which is on NVMe
