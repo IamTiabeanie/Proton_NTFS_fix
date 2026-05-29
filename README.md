@@ -8,4 +8,7 @@ Usage:
 ./ntfs-fix.sh MEDIANAME STEAMID
 
 Example: ./ntfs-fix.sh NVMe 1962700
+
 Configures Subnautica 2 which is on NVMe
+
+Follow the wiki for futher instructions.
