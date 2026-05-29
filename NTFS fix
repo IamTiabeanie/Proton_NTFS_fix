@@ -4,10 +4,10 @@
 
 protoninstall()
 {
-    cd /home/whoami/.steam/steam/steamapps/compatdata/
+    cd $HOME/.steam/steam/steamapps/compatdata/
         mkdir -p $2
         cd /run/media/whoami/$1/SteamLibrary/steamapps/compatdata/
         rm -r $2
-        ln -s /home/whoami/.steam/steam/steamapps/compatdata/$2 /run/media/whoami/$1/SteamLibrary/steamapps/compatdata/
+        ln -s $HOME/.steam/steam/steamapps/compatdata/$2 /run/media/whoami/$1/SteamLibrary/steamapps/compatdata/
     cd 
 }
