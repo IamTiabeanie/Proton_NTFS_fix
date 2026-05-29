@@ -1,0 +1,13 @@
+//Usage: protoninstall NVMe 1962700 
+//Configures Subnautica 2 ^^
+//replace whoami with your user folder name.
+
+protoninstall()
+{
+    cd /home/whoami/.steam/steam/steamapps/compatdata/
+        mkdir -p $2
+        cd /run/media/whoami/$1/SteamLibrary/steamapps/compatdata/
+        rm -r $2
+        ln -s /home/whoami/.steam/steam/steamapps/compatdata/$2 /run/media/whoami/$1/SteamLibrary/steamapps/compatdata/
+    cd 
+}
